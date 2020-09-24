@@ -83,7 +83,7 @@ function init() {
         type: "checkbox",
         name: "tech",
         message: "What languages and installations were used?",
-        choices: ["HTML ", "CSS ", "BOOTSTRAP ", "JAVASCRIPT ", "NODE.JS ", "JQUERY ", "REACT ", "PHP ",],
+        choices: [" HTML", " CSS", " BOOTSTRAP", " JAVASCRIPT", " NODE.JS", " JQUERY", " REACT", " PHP",],
       },
       {
         type: "input",
