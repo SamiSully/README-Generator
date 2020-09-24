@@ -24,7 +24,7 @@ Sami Sully
 
 (https://www.github.com/samisully)
 
-JAVASCRIPT ,NODE.JS 
+JAVASCRIPT, NODE.JS 
   
 ## Tests
 A few tests have been run locally
@@ -32,10 +32,10 @@ A few tests have been run locally
 ## License
 MIT License
 
-        (https://choosealicense.com/licenses/mit/)
+(https://choosealicense.com/licenses/mit/)
 
 Copyright © Sami Sully 2020
   
 ## Questions
-If you have any questions, you can reach out to me directly at samilsully@gamil.com
+If you have any questions, you can reach out to me directly at samilsully@gmail.com
   
