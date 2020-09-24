@@ -1,7 +1,7 @@
 # Good README Generator
 ![ALT](https://img.shields.io/badge/license-MIT-blue)
 
-![Image of Screenshot](/READMEGeneratorDemo.gif)
+![Image of Screenshot](assets/READMEGeneratorDemo.gif)
 ## Description
 A NODE.js and Javascript application to generate READMEs with all important components. This helps software developers spend less time on README's and more time working on the big projects!
   
@@ -14,7 +14,7 @@ A NODE.js and Javascript application to generate READMEs with all important comp
 * [Questions](#Questions)
   
 ## Description
-Install directly through github and run npm install in the terminal
+Used to generate quick and easy README documents. Run the program by typing 'Node index.js' in your terminal. Then fill out the prompts as they are given to you!
   
 ## Usage
 Generating quick and easy READMEs
@@ -27,7 +27,7 @@ Sami Sully
 JAVASCRIPT, NODE.JS 
   
 ## Tests
-A few tests have been run locally
+Tested several times locally by running through creating sample READMEs
   
 ## License
 MIT License
