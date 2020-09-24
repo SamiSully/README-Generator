@@ -1,7 +1,6 @@
 // array of questions for user
 const fs = require("fs");
 const inquirer = require("inquirer");
-const { generate } = require("rxjs");
 const generateMarkdown = require("./generateMarkdown.js");
 
 const questions = [];
@@ -28,7 +27,7 @@ inquirer.prompt([
     name: "usage",
     message: "What is the usage of your project?",
   },
-  { type: "list", name: "license", options: ["MIT", "GNU", "APM"] },
+  { type: "list", name: "license", choices: ["MIT", "GNU", "APM"] },
   {
     type: "input",
     name: "contributors",
@@ -46,13 +45,16 @@ inquirer.prompt([
   },
 ]).then(answers => {
     var createREADME = generateMarkdown(answers);
-    
+    fs.writeFile("new.md", createREADME, err => {
+        if (err) throw err;
+        console.log("Readme! Hopefully this works!")
+    })
 });
-// function to write README file
-function writeToFile(fileName, data) {}
+// // function to write README file
+// function writeToFile(fileName, data) {}
 
-// function to initialize program
-function init() {}
+// // function to initialize program
+// function init() {}
 
-// function call to initialize program
-init();
+// // function call to initialize program
+// init();
